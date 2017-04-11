@@ -38,6 +38,8 @@ header{
   top: 50%;
   transform: translateY(-50px);
   width: 100%;
+  opacity: 0;
+  animation: slide-down-fade-in 1.5s .5s forwards;
 
 }
 
@@ -108,4 +110,9 @@ section.content p {
 .icon-block img {
   width: 150px;
   padding: 30px;
+  opacity: 0;
+}
+.icon-block img.visible {
+  animation: zoom-in-fade-in 1s forwards;
+
 }
